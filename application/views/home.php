@@ -8,15 +8,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/font-awesome.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/slick.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/sal.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/green-audio-player.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/font-awesome.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/slick.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/slick-theme.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/sal.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/magnific-popup.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/green-audio-player.min.css">
 
-    <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/app.css">
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/app.css">
 
 </head>
 
@@ -76,38 +76,38 @@ defined('BASEPATH') or exit('No direct script access allowed');
 									</div>
 								</div>
 								<ul class="mainmenu">
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">Digital Agency</a>
-										<ul class="axil-submenu">
+									<li class="menu-item">
+										<a href="#">Services</a>
+										<!-- <ul class="axil-submenu">
 											<li><a href="index-1.html">Digital Agency</a></li>
 											<li><a href="index-2.html">Creative Agency</a></li>
 											<li><a href="index-3.html">Personal Portfolio</a></li>
 											<li><a href="index-4.html">Home Startup</a></li>
 											<li><a href="index-5.html">Corporate Agency</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">Services</a>
-										<ul class="axil-submenu">
+									<li class="menu-item">
+										<a href="#">Project</a>
+										<!-- <ul class="axil-submenu">
 											<li><a href="service.html">Service</a></li>
 											<li><a href="service-2.html">Service Two</a></li>
 											<li><a href="service-design.html">Service Details</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">Portfolio</a>
-										<ul class="axil-submenu">
+									<li class="menu-item">
+										<a href="#">Testimonial</a>
+										<!-- <ul class="axil-submenu">
 											<li><a href="portfolio.html">Two Column</a></li>
 											<li><a href="portfolio-2.html">Three Column</a></li>
 											<li><a href="portfolio-3.html">Four Column</a></li>
 											<li><a href="portfolio-4.html">Three Column Width</a></li>
 											<li><a href="portfolio-5.html">Four Column Width</a></li>
 											<li><a href="single-portfolio.html">Portfolio Details</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">Pages</a>
-										<ul class="axil-submenu">
+									<li class="menu-item">
+										<a href="#">Client</a>
+										<!-- <ul class="axil-submenu">
 											<li><a href="about-us.html">About Us</a></li>
 											<li><a href="our-office.html">Our Office</a></li>
 											<li><a href="case-study.html">Case Study</a></li>
@@ -120,56 +120,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											<li><a href="typography.html">Typography</a></li>
 											<li><a href="404.html">404 Page</a></li>
 											<li><a href="coming-soon.html">Coming Soon</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">Blog</a>
-										<ul class="axil-submenu">
+									<li class="menu-item">
+										<a href="#">Contact Us</a>
+										<!-- <ul class="axil-submenu">
 											<li><a href="blog.html">Blog</a></li>
 											<li><a href="single-blog.html">Standard Post</a></li>
 											<li><a href="single-blog-gallery.html">Gallery Post</a></li>
 											<li><a href="single-blog-video.html">Video Post</a></li>
 											<li><a href="single-blog-audio.html">Audio Post</a></li>
 											<li><a href="single-blog-quote.html">Quote Post</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li><a href="contact.html">Contact</a></li>
+									<!-- <li><a href="contact.html">Contact</a></li> -->
 								</ul>
 							</nav>
 							<!-- End Mainmanu Nav -->
 						</div>
-						<div class="header-action">
-							<ul class="list-unstyled">
-								<li class="sidemenu-btn d-lg-block d-none">
-									<button class="btn-wrap btn-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">
-										<span></span>
-										<span></span>
-										<span></span>
-									</button>
-								</li>
-								<li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
-									<button class="btn-wrap btn-dark" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
-										<span></span>
-										<span></span>
-										<span></span>
-									</button>
-								</li>
-								<li class="my_switcher d-block d-lg-none">
-									<ul>
-										<li title="Light Mode">
-											<a href="javascript:void(0)" class="setColor light" data-theme="light">
-												<i class="fal fa-lightbulb-on"></i>
-											</a>
-										</li>
-										<li title="Dark Mode">
-											<a href="javascript:void(0)" class="setColor dark" data-theme="dark">
-												<i class="fas fa-moon"></i>
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -264,11 +233,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="axil-isotope-wrapper">
 					<div class="isotope-button isotope-project-btn">
 						<button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-						<button data-filter=".branding"><span class="filter-text">Branding</span></button>
-						<button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+						<!-- <button data-filter=".branding"><span class="filter-text">Branding</span></button>
+						<button data-filter=".mobile"><span class="filter-text">Mobile</span></button> -->
 					</div>
 					<div class="row row-35 isotope-list">
-						<div class="col-md-6 project branding">
+						<div class="col-md-6 col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -281,7 +250,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 project mobile">
+						<div class="col-md-6  col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -294,7 +263,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 project branding">
+						<div class="col-md-6  col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -307,7 +276,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 project mobile">
+						<div class="col-md-6 col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -320,7 +289,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 project branding">
+						<div class="col-md-6 col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -333,7 +302,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 project mobile">
+						<div class="col-md-6 col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
 									<a href="single-portfolio.html">
@@ -368,9 +337,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="row">
 					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
 						<div class="counterup-progress active">
-							<div class="icon">
-								<img src="<?php echo base_url(); ?>assets/media/icon/icon-7.png" alt="Apple">
-							</div>
+
 							<div class="count-number h2">
 								<span class="number count">15</span>
 								<span class="symbol">+</span>
@@ -380,9 +347,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
 						<div class="counterup-progress">
-							<div class="icon">
-								<img src="assets/media/icon/icon-8.png" alt="Apple">
-							</div>
 							<div class="count-number h2">
 								<span class="number count">360</span>
 								<span class="symbol">+</span>
@@ -392,9 +356,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
 						<div class="counterup-progress">
-							<div class="icon">
-								<img src="<?php echo base_url(); ?>assets/media/icon/icon-9.png" alt="Apple">
-							</div>
 							<div class="count-number h2">
 								<span class="number count">600</span>
 								<span class="symbol">+</span>
@@ -404,9 +365,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
 						<div class="counterup-progress">
-							<div class="icon">
-								<img src="<?php echo base_url(); ?>assets/media/icon/apple.png" alt="Apple">
-							</div>
 							<div class="count-number h2">
 								<span class="number count">64</span>
 								<span class="symbol">+</span>
@@ -498,94 +456,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<p>Design anything from simple icons to fully featured websites and applications.</p>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500">
+					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500">
 						<div class="brand-grid active">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-1.png" alt="Brand">
 						</div>
 					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
 						<div class="brand-grid">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-2.png" alt="Brand">
 						</div>
 					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
+					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
 						<div class="brand-grid">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-3.png" alt="Brand">
-						</div>
-					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
-						<div class="brand-grid">
-							<img src="<?php echo base_url(); ?>assets/media/brand/brand-4.png" alt="Brand">
-						</div>
-					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
-						<div class="brand-grid">
-							<img src="<?php echo base_url(); ?>assets/media/brand/brand-5.png" alt="Brand">
-						</div>
-					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
-						<div class="brand-grid">
-							<img src="<?php echo base_url(); ?>assets/media/brand/brand-6.png" alt="Brand">
-						</div>
-					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
-						<div class="brand-grid">
-							<img src="<?php echo base_url(); ?>assets/media/brand/brand-7.png" alt="Brand">
-						</div>
-					</div>
-					<div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
-						<div class="brand-grid">
-							<img src="<?php echo base_url(); ?>assets/media/brand/brand-8.png" alt="Brand">
 						</div>
 					</div>
 				</div>
 			</div>
 			<ul class="list-unstyled shape-group-10">
 				<li class="shape shape-1"><img src="<?php echo base_url(); ?>assets/media/others/line-9.png" alt="Circle"></li>
-			</ul>
-		</section>
-		<!--=====================================-->
-		<!--=        Blog Area Start       	    =-->
-		<!--=====================================-->
-		<section class="section section-padding-equal">
-			<div class="container">
-				<div class="section-heading">
-					<span class="subtitle">What's Going On</span>
-					<h2 class="title">Latest stories</h2>
-					<p>News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
-				</div>
-				<div class="row g-0">
-					<div class="col-xl-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-						<div class="blog-list active">
-							<div class="post-thumbnail">
-								<a href="single-blog-2.html"><img src="<?php echo base_url(); ?>assets/media/blog/blog-1.png" alt="Blog Post"></a>
-							</div>
-							<div class="post-content">
-								<h5 class="title"><a href="single-blog-2.html">How To Use a Remarketing Strategy To Get More</a></h5>
-								<p>Demand generation is a constant struggle for any business. Each marketing strategy you employ has...</p>
-								<a href="single-blog-2.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
-						<div class="blog-list border-start">
-							<div class="post-thumbnail">
-								<a href="single-blog-3.html"><img src="<?php echo base_url(); ?>assets/media/blog/blog-2.png" alt="Blog Post"></a>
-							</div>
-							<div class="post-content">
-								<h5 class="title"><a href="single-blog-3.html">SEO Statistics You Should Know in 2021</a></h5>
-								<p>Organic search has the potential to capture more than 40 percent of your gross revenue...</p>
-								<a href="single-blog-3.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<ul class="shape-group-1 list-unstyled">
-				<li class="shape shape-1"><img src="<?php echo base_url(); ?>assets/media/others/bubble-1.png" alt="bubble"></li>
-				<li class="shape shape-2"><img src="<?php echo base_url(); ?>assets/media/others/line-1.png" alt="bubble"></li>
-				<li class="shape shape-3"><img src="<?php echo base_url(); ?>assets/media/others/line-2.png" alt="bubble"></li>
-				<li class="shape shape-4"><img src="<?php echo base_url(); ?>assets/media/others/bubble-2.png" alt="bubble"></li>
 			</ul>
 		</section>
 		<!--=====================================-->
@@ -652,8 +541,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 									<p>Fusce varius, dolor tempor interdum tristique, dui urna bib
 										endum magna, ut ullamcorper purus</p>
 									<form>
-										<div class="input-group">
+										<div class="input-group mb-3">
 											<input type="email" class="form-control" placeholder="Email address">
+										</div>
+										<div class="input-group mb-3">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+
+										<div class="textarea-group mb-3">
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Messages"></textarea>
+										</div>
+										<div class="textarea-group mb-4">
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Condition"></textarea>
+										</div>
+
+										<div class="text-end">
 											<button class="subscribe-btn" type="submit">Subscribe</button>
 										</div>
 									</form>
