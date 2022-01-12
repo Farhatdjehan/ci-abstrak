@@ -6,6 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
 	<title>Welcome to CodeIgniter</title>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/vendor/font-awesome.css">
