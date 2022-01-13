@@ -78,7 +78,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 								<ul class="mainmenu">
 									<li class="menu-item">
-										<a href="#">Services</a>
+										<a href="#services">Services</a>
 										<!-- <ul class="axil-submenu">
 											<li><a href="index-1.html">Digital Agency</a></li>
 											<li><a href="index-2.html">Creative Agency</a></li>
@@ -88,7 +88,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</ul> -->
 									</li>
 									<li class="menu-item">
-										<a href="#">Project</a>
+										<a href="#project">Project</a>
 										<!-- <ul class="axil-submenu">
 											<li><a href="service.html">Service</a></li>
 											<li><a href="service-2.html">Service Two</a></li>
@@ -96,7 +96,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</ul> -->
 									</li>
 									<li class="menu-item">
-										<a href="#">Testimonial</a>
+										<a href="#testimonial">Testimonial</a>
 										<!-- <ul class="axil-submenu">
 											<li><a href="portfolio.html">Two Column</a></li>
 											<li><a href="portfolio-2.html">Three Column</a></li>
@@ -107,7 +107,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</ul> -->
 									</li>
 									<li class="menu-item">
-										<a href="#">Client</a>
+										<a href="#clients">Client</a>
 										<!-- <ul class="axil-submenu">
 											<li><a href="about-us.html">About Us</a></li>
 											<li><a href="our-office.html">Our Office</a></li>
@@ -124,7 +124,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</ul> -->
 									</li>
 									<li class="menu-item">
-										<a href="#">Contact Us</a>
+										<a href="#contact">Contact Us</a>
 										<!-- <ul class="axil-submenu">
 											<li><a href="blog.html">Blog</a></li>
 											<li><a href="single-blog.html">Standard Post</a></li>
@@ -171,7 +171,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<!--=====================================-->
 		<!--=        Service Area Start         =-->
 		<!--=====================================-->
-		<section class="section section-padding">
+		<section id="services" class="section section-padding">
 			<div class="container">
 				<div class="section-heading heading-left mb--20 mb_md--70">
 					<span class="subtitle">What We Can Do For You</span>
@@ -225,7 +225,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<!--=====================================-->
 		<!--=        Project Area Start         =-->
 		<!--=====================================-->
-		<section class="section section-padding-2 bg-color-light">
+		<section id="project" class="section section-padding-2 bg-color-light">
 			<div class="container">
 				<div class="section-heading heading-left">
 					<span class="subtitle">Our Project</span>
@@ -384,7 +384,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<!--=====================================-->
 		<!--=        Testimonial Area Start      =-->
 		<!--=====================================-->
-		<section class="section section-padding">
+		<section id="testimonial" class="section section-padding">
 			<div class="container">
 				<div class="section-heading heading-left">
 					<span class="subtitle">Testimonial</span>
@@ -449,7 +449,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<!--=====================================-->
 		<!--=        Brand Area Start       	=-->
 		<!--=====================================-->
-		<section class="section section-padding bg-color-dark">
+		<section id="clients" class="section section-padding bg-color-dark">
 			<div class="container">
 				<div class="section-heading heading-light-left">
 					<span class="subtitle">Top Clients</span>
@@ -457,17 +457,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<p>Design anything from simple icons to fully featured websites and applications.</p>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500">
+					<div class="col-lg-4 col-12 d-flex justify-content-center" data-sal="slide-up" data-sal-duration="500">
 						<div class="brand-grid active">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-1.png" alt="Brand">
 						</div>
 					</div>
-					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+					<div class="col-lg-4 col-12 d-flex justify-content-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
 						<div class="brand-grid">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-2.png" alt="Brand">
 						</div>
 					</div>
-					<div class="col-lg-4 col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
+					<div class="col-lg-4 col-12 d-flex justify-content-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
 						<div class="brand-grid">
 							<img src="<?php echo base_url(); ?>assets/media/brand/brand-3.png" alt="Brand">
 						</div>
@@ -537,7 +537,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="row">
 						<div class="col-xl-6 col-lg-5" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
 							<div class="footer-widget border-end">
-								<div class="footer-newsletter">
+								<div id="contact" class="footer-newsletter">
 									<h2 class="title">Get in touch!</h2>
 									<p>Fusce varius, dolor tempor interdum tristique, dui urna bib
 										endum magna, ut ullamcorper purus</p>
@@ -552,9 +552,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="textarea-group mb-3">
 											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Messages"></textarea>
 										</div>
-										<div class="textarea-group mb-4">
-											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Condition"></textarea>
-										</div>
+										<div class="success-condition">Ready to Go!</div>
 
 										<div class="text-end">
 											<button class="subscribe-btn" type="submit">Subscribe</button>

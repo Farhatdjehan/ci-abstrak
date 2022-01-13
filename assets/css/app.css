@@ -6855,7 +6855,11 @@ Pagination
 		padding: 15px 0;
 	}
 }
-
+.success-condition {
+	font-family: var(--font-primary);
+	font-weight: 600;
+	color: green;
+}
 .axil-header.header-style-2 .axil-mainmenu .mainmenu {
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
