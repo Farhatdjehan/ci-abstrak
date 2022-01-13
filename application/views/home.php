@@ -33,7 +33,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div id="preloader"></div>
 	<!-- Preloader End Here -->
 
-	<div class="my_switcher d-none d-lg-block">
+	<!-- <div class="my_switcher d-none d-lg-block">
 		<ul>
 			<li title="Light Mode">
 				<a href="javascript:void(0)" class="setColor light" data-theme="light">
@@ -46,7 +46,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</a>
 			</li>
 		</ul>
-	</div>
+	</div> -->
 
 	<div id="main-wrapper" class="main-wrapper">
 
@@ -232,16 +232,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<h2 class="title">Some of our <br> finest work.</h2>
 				</div>
 				<div class="axil-isotope-wrapper">
-					<div class="isotope-button isotope-project-btn">
-						<button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-						<!-- <button data-filter=".branding"><span class="filter-text">Branding</span></button>
+					<!-- <div class="isotope-button isotope-project-btn"> -->
+					<!-- <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button> -->
+					<!-- <button data-filter=".branding"><span class="filter-text">Branding</span></button>
 						<button data-filter=".mobile"><span class="filter-text">Mobile</span></button> -->
-					</div>
+					<!-- </div> -->
+
 					<div class="row row-35 isotope-list">
 						<div class="col-md-6 col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-1.png" alt="project">
 									</a>
 								</div>
@@ -254,7 +255,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-md-6  col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-2.png" alt="project">
 									</a>
 								</div>
@@ -267,7 +268,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-md-6  col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-3.png" alt="project">
 									</a>
 								</div>
@@ -280,7 +281,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-md-6 col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-4.png" alt="project">
 									</a>
 								</div>
@@ -293,7 +294,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-md-6 col-lg-6 project branding">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-5.png" alt="project">
 									</a>
 								</div>
@@ -303,10 +304,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-6 col-lg-6 project mobile">
 							<div class="project-grid">
 								<div class="thumbnail">
-									<a href="single-portfolio.html">
+									<a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 										<img src="<?php echo base_url(); ?>assets/media/project/project-6.png" alt="project">
 									</a>
 								</div>
@@ -316,7 +318,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
 			<ul class="shape-group-7 list-unstyled">
@@ -487,7 +491,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="section-heading heading-light">
 						<span class="subtitle">Let's Work Together</span>
 						<h2 class="title">Need a successful project?</h2>
-						<a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+						<a href="#contact" class="axil-btn btn-large btn-fill-white">Contact Us</a>
 					</div>
 					<div class="thumbnail">
 						<div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
@@ -552,7 +556,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="textarea-group mb-3">
 											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Messages"></textarea>
 										</div>
-										<div class="success-condition">Ready to Go!</div>
+										<div class="success-condition">Request Sended!</div>
 
 										<div class="text-end">
 											<button class="subscribe-btn" type="submit">Subscribe</button>
@@ -685,7 +689,26 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</div>
 	</div>
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<!-- <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button> -->
 
+				<div class="modal-body p-4">
+					<img class="image-portofolio__modal mb-4" src="<?php echo base_url(); ?>assets/media/project/project-1.png" alt="project" />
+					<h4 class="title mb-2">
+						<div>Creative Agency</div>
+					</h4>
+					<span class="subtitle mb-3">Full Branding, Website, App</span>
+					<div class="textbox">
+						<p class="mb-2">We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance ease of modification.</p>
+						<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 	<!-- Jquery Js -->
 	<script src="<?php echo base_url(); ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/vendor/bootstrap.min.js"></script>
